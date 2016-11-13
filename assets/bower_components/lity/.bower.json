@@ -1,0 +1,55 @@
+{
+  "name": "lity",
+  "authors": [
+    "Jan Sorgalla <jsorgalla@gmail.com>"
+  ],
+  "description": "Lightweight, accessible and responsive lightbox.",
+  "main": [
+    "dist/lity.min.js",
+    "dist/lity.min.css"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "dependencies": {
+    "jquery": ">=1.7"
+  },
+  "keywords": [
+    "lightbox",
+    "modal",
+    "popup",
+    "lightweight",
+    "responsive",
+    "accessible",
+    "accessibility",
+    "a11y",
+    "jquery",
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "license": "MIT",
+  "homepage": "http://sorgalla.com/lity/",
+  "ignore": [
+    "**/.*",
+    "assets",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "Gruntfile.js",
+    "index.html",
+    "package.json"
+  ],
+  "version": "2.2.0",
+  "_release": "2.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.2.0",
+    "commit": "84c2a9298b83ba749bb2f396098a7fee949805c8"
+  },
+  "_source": "https://github.com/jsor/lity.git",
+  "_target": "^2.2.0",
+  "_originalSource": "lity",
+  "_direct": true
+}

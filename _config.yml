@@ -16,19 +16,22 @@
 title: Snappi 
 email: team@snappi.io
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Through the standardization of microservice creation we can solve the
+  problems they bring, further empower horizontal scaling, and empower
+  service reuse like never before!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: snappi
+twitter_username: snappiteam
 github_username:  snappi
 
 # Build settings
 markdown: kramdown
-theme: minima
 gems:
   - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
+
+webserver_headers:
+  "Access-Control-Allow-Origin": "*"
+  "Server": "CustomServerName"

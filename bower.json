@@ -1,0 +1,31 @@
+{
+  "name": "snappi-docs",
+  "homepage": "snappi.github.io",
+  "authors": [
+    "Snappi <team@snappi.io>"
+  ],
+  "description": "Documentation for Snappi",
+  "main": "",
+  "keywords": [
+    "snappi"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "clipboard": "^1.5.15",
+    "font-awesome": "^4.7.0",
+    "matchHeight": "matchheight#^0.7.0",
+    "prism": "^1.5.1",
+    "lity": "^2.2.0",
+    "fitvids": "^1.2.0",
+    "video.js": "^5.13.1"
+  }
+}

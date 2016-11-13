@@ -1,0 +1,77 @@
+---
+---
+
+/*
+ * theDocs v1.2.0 (http://shamsoft.net/thedocs)
+ * Copyright 2015 ShaMSofT
+ * Licensed under the Themeforest Standard Licenses
+
+ ... Table of content ...
+ ------------------------
+ 01. Content
+ 02. Header
+ 03. Footer
+ 04. Sidebar
+ 05. Typography
+ 06. Labels
+ 07. Alerts
+ 08. Buttons
+ 09. Tables
+ 10. Table of contents
+ 11. FAQ
+ 12. Tab
+ 13. Code
+ 14. Steps
+ 15. Views
+ 16. Color palette
+ 17. Promo
+ 18. Files
+ 19. Media
+ 20. Banner
+ 21. Carousel
+ 22. Jumbotron
+ 23. Breadcrumbs
+ 24. Pagination
+ 25. Requirements
+ 26. Blog
+ ------------------------
+ */
+
+// Core variables and mixins
+@import "theDocs/variables";
+@import "theDocs/mixins";
+
+// Core CSS
+@import "theDocs/content";
+@import "theDocs/header";
+@import "theDocs/footer";
+@import "theDocs/sidebar";
+@import "theDocs/typography";
+@import "theDocs/labels";
+@import "theDocs/alerts";
+@import "theDocs/buttons";
+@import "theDocs/tables";
+@import "theDocs/form";
+
+// Components
+@import "theDocs/toc";
+@import "theDocs/faq";
+@import "theDocs/tab";
+@import "theDocs/code";
+@import "theDocs/views";
+@import "theDocs/color";
+@import "theDocs/promo";
+@import "theDocs/files";
+@import "theDocs/media";
+@import "theDocs/banner";
+@import "theDocs/carousel";
+@import "theDocs/step";
+@import "theDocs/jumbotron";
+@import "theDocs/breadcrumb";
+@import "theDocs/pagination";
+@import "theDocs/requirements";
+@import "theDocs/blog";
+
+// Skin
+$color: #0B4F6C;
+@import "theDocs/skins/skin";
