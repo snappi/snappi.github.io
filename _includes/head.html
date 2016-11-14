@@ -5,7 +5,8 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
 
-    <title>Snappi</title>
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
     <!-- Styles -->
     <link href="{{ "/assets/bower_components/bootstrap/dist/css/bootstrap.min.css" | absolute_url }}" rel="stylesheet">
