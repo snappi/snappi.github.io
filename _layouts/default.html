@@ -1,52 +1,22 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-{% include head.html %}
-<body>
+---
+layout: wrapper
+---
 
-{% include header.html %}
+<div class="row">
 
-<main class="container">
-    <div class="row">
+    <!-- Main content -->
+    <article class="col-sm-12 main-content" role="main">
 
-        <!-- Sidebar -->
-        {% include sidebar.html %}
-        <!-- END Sidebar -->
+        <header>
+            <h1>{{ page.title | escape }}</h1>
+            <p>{{ page.description | escape }}</p>
+        </header>
 
+        <section>
+            {{ content }}
+        </section>
 
-        <!-- Main content -->
-        <article class="col-md-9 col-sm-9 main-content" role="main">
+    </article>
+    <!-- END Main content -->
 
-            <header>
-                <h1>{{ page.title | escape }}</h1>
-                <p>{{ page.description | escape }}</p>
-            </header>
-
-            <section>
-                {{ content }}
-            </section>
-
-
-        </article>
-        <!-- END Main content -->
-    </div>
-</main>
-
-
-<!-- Footer -->
-{% include footer.html %}
-<!-- END Footer -->
-
-<!-- Scripts -->
-<script src="{{ "/assets/bower_components/jquery/dist/jquery.min.js" | absolute_url }}"></script>
-<script src="{{ "/assets/bower_components/bootstrap/dist/js/bootstrap.min.js" | absolute_url }}"></script>
-<script src="{{ "/assets/bower_components/clipboard/dist/clipboard.min.js" | absolute_url }}"></script>
-<script src="{{ "/assets/bower_components/matchHeight/dist/jquery.matchHeight-min.js" | absolute_url }}"></script>
-<script src="{{ "/assets/bower_components/prism/prism.js" | absolute_url }}"></script>
-<script src="{{ "/assets/bower_components/lity/dist/lity.min.js" | absolute_url }}"></script>
-<script src="{{ "/assets/bower_components/fitvids/jquery.fitvids.js" | absolute_url }}"></script>
-<script src="{{ "/assets/bower_components/video.js/dist/video.min.js" | absolute_url }}"></script>
-<script src="{{ "/assets/js/theDocs/theDocs.js" | absolute_url }}"></script>
-<script src="{{ "/assets/js/theDocs/custom.js" | absolute_url }}"></script>
-
-</body>
-</html>
+</div>

@@ -35,3 +35,15 @@ exclude:
 webserver_headers:
   "Access-Control-Allow-Origin": "*"
   "Server": "CustomServerName"
+
+collections:
+  docs:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: docs
+    values:
+      parent: null
+      order: 0

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+{% include head.html %}
+<body>
+
+{% include header.html %}
+
+<main class="container">
+    {{ content }}
+</main>
+
+
+<!-- Footer -->
+{% include footer.html %}
+<!-- END Footer -->
+
+<!-- Scripts -->
+<script src="{{ "/assets/bower_components/jquery/dist/jquery.min.js" | absolute_url }}"></script>
+<script src="{{ "/assets/bower_components/bootstrap/dist/js/bootstrap.min.js" | absolute_url }}"></script>
+<script src="{{ "/assets/bower_components/clipboard/dist/clipboard.min.js" | absolute_url }}"></script>
+<script src="{{ "/assets/bower_components/matchHeight/dist/jquery.matchHeight-min.js" | absolute_url }}"></script>
+<script src="{{ "/assets/bower_components/prism/prism.js" | absolute_url }}"></script>
+<script src="{{ "/assets/bower_components/lity/dist/lity.min.js" | absolute_url }}"></script>
+<script src="{{ "/assets/bower_components/fitvids/jquery.fitvids.js" | absolute_url }}"></script>
+<script src="{{ "/assets/bower_components/video.js/dist/video.min.js" | absolute_url }}"></script>
+<script src="{{ "/assets/js/theDocs/theDocs.js" | absolute_url }}"></script>
+
+</body>
+</html>
