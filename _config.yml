@@ -28,6 +28,9 @@ github_username:  snappi
 markdown: kramdown
 gems:
   - jekyll-feed
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from
 exclude:
   - Gemfile
   - Gemfile.lock
