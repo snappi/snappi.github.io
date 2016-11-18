@@ -1,4 +1,6 @@
 ---
+title: Getting Started
+layout: page
 permalink: /docs/what_is_snappi/
 redirect_from:
   - /docs/
