@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Getting Started
-permalink: /docs/what_is_snappi/
+permalink: /docs/getting_started/
 ---
 
 ### What is Snappi?
@@ -18,7 +18,8 @@ $nvm install 0.12
 ##### Install Docker
 Install Docker using instructions from [here](https://docs.docker.com/)
 
-##### Install the Snappi NPM Module
+
+##### Install the Snappi CLI NPM Module
 ```sh
 $npm install -g snappi-cli
 ```
