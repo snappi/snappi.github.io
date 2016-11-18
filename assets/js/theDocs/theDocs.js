@@ -221,34 +221,6 @@ $(function() {
   // Code viewers
   //
 
-  // Copy to clipboard
-  // It doesn't support Safari yet, and also has some minor bugs
-  $('pre').each(function(index, value) {
-    $(this).prepend('<a class="btn btn-sm btn-purple clipboard-copy" data-original-title="Copied!">Copy</a>');
-  });
-
-  // Code snippet
-  $('pre').each(function(index, value) {
-    if ($(this).parents('.code-window').length || $(this).parents('.code-taps').length) {
-      return;
-    }
-    var title = "";
-    if ($(this).children("code").attr('class')) {
-      title = $(this).children("code").attr('class');
-      title = title.replace("language-", "");
-      title = title.toLowerCase();
-      if (title == "markup") {
-        title = "html";
-      }
-    }
-    var span = '<span class="language-name">'+ title +'</span>';
-    $(this).prepend(span);
-  });
-
-  $('pre .language-name').parent().on('scroll', function(){
-    $(this).find('.language-name').css('transform', 'translate('+ $(this).scrollLeft() +'px, '+ $(this).scrollTop() +'px)');
-  });
-
   // Code window
   $('.code-window').each(function(index, value){
     var topbar = '<div class="window-bar"><div class="circles">';
@@ -350,30 +322,6 @@ $(function() {
   $('pre code').each(function(){
     $(this).html($.trim($(this).html()));
   });
-
-
-  // Copy to clipboard
-  $('.code-preview .clipboard-copy').remove();
-  $('.clipboard-copy').tooltip({placement: 'bottom', trigger: 'manual'});
-  // Move copy button when the content is scrolling
-  $('.clipboard-copy').parent().on('scroll', function(){
-    $(this).find('.clipboard-copy').css('transform', 'translate('+ $(this).scrollLeft() +'px, '+ $(this).scrollTop() +'px)');
-  });
-
-  if ($('.clipboard-copy').length > 0) {
-
-    var clipboardSnippets = new Clipboard('.clipboard-copy', {
-      target: function(trigger) {
-        return trigger.nextElementSibling;
-      }
-    });
-
-    clipboardSnippets.on('success', function(e) {
-      e.clearSelection();
-      $(e.trigger).tooltip('show');
-      setTimeout(function(el){ $(el.trigger).tooltip('hide'); }, 1000, e);
-    });
-  }
 
 
 });

@@ -1,7 +1,8 @@
 ---
-layout: page
-title: Getting Started
-permalink: /docs/getting_started/
+permalink: /docs/what_is_snappi/
+redirect_from:
+  - /docs/
+  - /docs/getting_started
 ---
 
 ### What is Snappi?
@@ -10,17 +11,18 @@ Snappi is an open-source tool used to easily and quickly create and deploy scala
 
 ##### Prerequisites
 Install Node Version Manager and Node.js version 0.12.x.
+
 ```sh
-$wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
-$nvm install 0.12
+$ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
+$ nvm install 0.12
 ```
 
 ##### Install Docker
 Install Docker using instructions from [here](https://docs.docker.com/)
 
-
-##### Install the Snappi CLI NPM Module
+##### Install the Snappi NPM Module
 ```sh
-$npm install -g snappi-cli
+$ npm install -g snappi-cli
 ```
+
 That's it! You're now ready to create your first Snappi application!
