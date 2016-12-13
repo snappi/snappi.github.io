@@ -1,12 +1,12 @@
 ---
 layout: default
-title: snappi init
+title: snappi install
 parent: cli
 order: 0
-permalink: /docs/cli/init/
+permalink: /docs/cli/install/
 ---
 
-# Creating a `snappi.json` file
+# Injecting additional services
 
 A configuration file for your service can always be created through any simple text editor, but the CLI also comes with 
 a handy function that walks through the creation process and generates a `snappi.json` file for you. To use this tool, 

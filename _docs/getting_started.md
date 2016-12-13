@@ -1,11 +1,13 @@
 ---
 title: Getting Started
-layout: page
+layout: default
 permalink: /docs/what_is_snappi/
 redirect_from:
   - /docs/
   - /docs/getting_started
 ---
+
+## Getting Started
 
 ### What is Snappi?
 Snappi is an open-source tool used to easily and quickly create and deploy scalable microservices using Docker containers. You'll be started in a snap!

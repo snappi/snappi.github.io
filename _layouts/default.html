@@ -4,17 +4,18 @@ layout: wrapper
 
 <div class="row">
 
-    <!-- Main content -->
-    <article class="col-sm-12 main-content" role="main">
+    <!-- Sidebar -->
+    {% include sidebar.html %}
+    <!-- END Sidebar -->
 
-        <header>
-            <h1>{{ page.title | escape }}</h1>
-            <p>{{ page.description | escape }}</p>
-        </header>
+
+    <!-- Main content -->
+    <article class="col-md-9 col-sm-9 main-content" role="main">
 
         <section>
             {{ content }}
         </section>
+
 
     </article>
     <!-- END Main content -->
