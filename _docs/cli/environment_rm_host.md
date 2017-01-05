@@ -1,6 +1,6 @@
 ---
 layout: default
-title: environment add [host]
+title: environment rm [host]
 parent: cli
 order: 7
 ---
