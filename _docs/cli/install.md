@@ -1,8 +1,8 @@
 ---
 layout: default
-title: snappi install
+title: install
 parent: cli
-order: 0
+order: 1
 permalink: /docs/cli/install/
 ---
 
@@ -13,7 +13,7 @@ a handy function that walks through the creation process and generates a `snappi
 simply type:
 
 ```
-$ snappi init
+$ snappi install
 ```
 
 This will initate a command line questionnaire that will conclude with the creation of a `snappi.json` file in the 

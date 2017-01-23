@@ -1,6 +1,6 @@
 ---
 layout: default
-title: snappi init
+title: init
 parent: cli
 order: 0
 permalink: /docs/cli/init/
