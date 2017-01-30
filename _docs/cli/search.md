@@ -12,7 +12,7 @@ Search the registry for packages matching the search terms. If a search term sta
 a regular expression (note that many regular expression characters must be escaped or quoted in most shells).
 
 ```
-$ snappi search [search terms...]
+$ snappi search <search terms...>
 ```
 
 ### Sample output
