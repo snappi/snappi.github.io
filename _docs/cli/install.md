@@ -2,7 +2,7 @@
 layout: default
 title: install
 parent: cli
-order: 1
+order: 3
 permalink: /docs/cli/install/
 ---
 
