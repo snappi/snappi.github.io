@@ -1,9 +1,9 @@
 ---
 layout: default
-title: require <service>
+title: install <service>
 parent: cli
 order: 3
-permalink: /docs/cli/require/
+permalink: /docs/cli/install/
 ---
 
 # Requiring other services
@@ -13,5 +13,5 @@ need to make calls to each other. Snappi supports this naturally as part of it's
 a simple configuration indicating which services are required before they can be referenced via dynamic RPC.
 
 ```
-$ snappi require <service name>
+$ snappi install <service name>
 ```

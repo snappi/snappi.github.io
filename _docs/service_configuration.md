@@ -1,12 +1,17 @@
 ---
 layout: default
-title: The snappi.json file
-permalink: /docs/snappi_configuration/
+title: Service Configuration
+order: 1
+permalink: /docs/service_configuration/
 ---
 
-The `snappi.json` is the most important piece of any snappi enabled service. Through this simple configuration file,
-the Snappi CLI is able to understand everything about your service as well as the services it depends on. Some of the 
-notable pieces of information included in the file include:
+Creating and configuring individual services is a simple, but crucial part of leveraging Snappi. In ensuring that 
+services adhere to the same interface and configuration guidelines, Snappi is able to automate deployment, scaling, 
+and interprocess communication.
+
+In order to identify and configure your service, you'll need to create a `snappi.json` file. Through this simple 
+configuration file, the Snappi CLI is able to understand everything about your service as well as the services it 
+depends on. Some of the notable pieces of information included in the file include:
 
 1. Package name and version number for your service allowing others to reference and consume it
 2. Description, documentation, and other meta information about the service so it can be discovered and shared
@@ -33,7 +38,7 @@ At a minimum, a `snappi.json` file must have the following:
   "name": "my-microservice",
   "version": {
     "name": "jellybean",
-    "number": "1.2"
+    "number": "1.2.0"
   }
 }
 ```
@@ -68,9 +73,6 @@ contract for your service. If you wish to publish "breaking" changes to your ser
   "repository": {
     "type": "Github",
     "url": "https://github.com/snappi/batman-service.git"
-  },
-  "bugs": {
-    "url": "https://github.com/snappi/batman-service/issues"
   },
   "dependencies": {
     "superman-service.superman-returns": "^2.0.0",

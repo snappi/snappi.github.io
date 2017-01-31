@@ -1,22 +1,16 @@
 ---
 layout: default
-title: environment rm [host]
+title: app env <env> rm <host>
 parent: cli
 order: 7
 ---
 
 # Remove host from environment
-To remove a host from a previously created environment, type the following into the command line:
+To remove a host from an environment, simply indicate the hostname you wish to remove and which environment it should 
+be removed from:
 
 ```sh
-$ snappi environment [env-name] rm [hostname]
+$ snappi app environment <env> rm <hostname>
+OR
+$ snappi app env <env> rm <hostname>
 ```
-
-OR 
-
-```sh
-$ snappi env [env-name] rm [hostname]
-```
-
-Where `[env-name]` is the name of your environment, and `[hostname]` is the address of the machine you wish to deploy 
-to. 

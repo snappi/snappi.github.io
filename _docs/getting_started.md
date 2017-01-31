@@ -2,6 +2,7 @@
 title: Getting Started
 layout: default
 permalink: /docs/what_is_snappi/
+order: 0
 redirect_from:
   - /docs/
   - /docs/getting_started
