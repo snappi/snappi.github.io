@@ -1,7 +1,8 @@
 ---
 layout: default
-title: app init
-order: 4
+title: snappi-app init
+permalink: /cli/snappi-app/init/
+order: 5
 parent: cli
 ---
 

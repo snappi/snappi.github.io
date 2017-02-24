@@ -1,9 +1,9 @@
 ---
 layout: default
-title: init
+title: snappi-service init
 parent: cli
 order: 2
-permalink: /cli/init/
+permalink: /cli/snappi-service/init/
 ---
 
 # Creating a `snappi.json` file

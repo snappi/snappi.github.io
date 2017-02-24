@@ -1,7 +1,8 @@
 ---
 layout: default
-title: app install <service>
-order: 5
+title: snappi-app install
+permalink: /cli/snappi-app/install
+order: 6
 parent: cli
 ---
 

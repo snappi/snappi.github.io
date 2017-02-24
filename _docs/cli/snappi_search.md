@@ -1,9 +1,9 @@
 ---
 layout: default
-title: search
+title: snappi search
 parent: cli
-order: 0
-permalink: /cli/search/
+order: 1
+permalink: /cli/snappi/search/
 ---
 
 # Searching for services

@@ -1,8 +1,9 @@
 ---
 layout: default
-title: app env <env> add <host>
+title: snappi-app env add
+permalink: /cli/snappi-app/env_add
 parent: cli
-order: 6
+order: 7
 ---
 
 # Add hosts to an app

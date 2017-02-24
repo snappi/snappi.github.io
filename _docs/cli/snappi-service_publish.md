@@ -1,9 +1,9 @@
 ---
 layout: default
-title: publish
+title: snappi-service publish
 parent: cli
-order: 1
-permalink: /cli/publish/
+order: 4
+permalink: /cli/snappi-service/publish/
 ---
 
 # Publishing services

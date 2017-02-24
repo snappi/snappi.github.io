@@ -1,9 +1,9 @@
 ---
 layout: default
-title: install <service>
+title: snappi-service install
 parent: cli
 order: 3
-permalink: /cli/install/
+permalink: /cli/snappi-service/install/
 ---
 
 # Requiring other services

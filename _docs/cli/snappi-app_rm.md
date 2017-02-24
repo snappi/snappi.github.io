@@ -1,8 +1,9 @@
 ---
 layout: default
-title: app env <env> rm <host>
+title: snappi-app env rm
+permalink: /cli/snappi-app/env_rm
 parent: cli
-order: 7
+order: 8
 ---
 
 # Remove host from environment

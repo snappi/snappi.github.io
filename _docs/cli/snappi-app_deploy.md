@@ -1,7 +1,8 @@
 ---
 layout: default
-title: app deploy <env>
-order: 8
+title: snappi-app deploy
+permalink: /cli/snappi-app/deploy/
+order: 9
 parent: cli
 ---
 
