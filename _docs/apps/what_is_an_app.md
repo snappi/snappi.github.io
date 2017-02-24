@@ -1,8 +1,9 @@
 ---
+title: What is an app?
 layout: default
-title: App Configuration
-order: 2
-permalink: /docs/app_configuration/
+permalink: /apps/what_is_an_app/
+order: 0
+parent: apps
 ---
 
 In addition to building and publishing individual services and their dependencies, Snappi can also build and ship 

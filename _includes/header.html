@@ -1,38 +1,19 @@
-<header class="site-header sticky">
+<header class="site-header sticky {% if page.heading or page.subHeading %}navbar-transparent navbar-primary{% endif %}">
 
-    <!-- Top navbar & branding -->
-    <nav class="navbar navbar-default">
+    {% include navbar.html %}
+
+    {% if page.heading or page.subHeading %}
+    <div class="banner auto-size text-white">
         <div class="container">
+            {% if page.heading %}
+            <h1>{{ page.heading }}</h1>
+            {% endif %}
 
-            <!-- Toggle buttons and brand -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
-                    <span class="glyphicon glyphicon-option-vertical"></span>
-                </button>
-
-                <button type="button" class="navbar-toggle for-sidebar" data-toggle="offcanvas">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-
-                <a class="navbar-brand" href="/"><img src="{{ "assets/img/theDocs/logo.png" | absolute_url }}" alt="logo"></a>
-            </div>
-            <!-- END Toggle buttons and brand -->
-
-            <!-- Top navbar -->
-            <div id="navbar" class="navbar-collapse collapse" aria-expanded="true" role="banner">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="http://snappi.io">Home</a></li>
-                    <li class="active"><a href="{{ "" | absolute_url }}">Documentation</a></li>
-                    <li><a href="https://blog.snappi.io" target="_blank">Blog</a></li>
-                    <li class="hero"><a href="mailto:team@snappi.io" target="_blank">Contact Us</a></li>
-                </ul>
-            </div>
-            <!-- END Top navbar -->
-
+            {% if page.subHeading %}
+            <h5>{{ page.subHeading }}</h5>
+            {% endif %}
         </div>
-    </nav>
-    <!-- END Top navbar & branding -->
+    </div>
+    {% endif %}
 
 </header>

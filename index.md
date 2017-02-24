@@ -1,8 +1,11 @@
 ---
-layout: default
 title: Snappi Documentation
+heading: Snappi Documentation
+subHeading: A CLI to solve your microservice woes
 ---
 
-# Snappi Documentation
+# What is Snappi?
+Snappi is ...
 
-<a class="btn btn-primary" href="/docs/getting_started">Go to documentation</a>
+# Alpha is live!
+asdadasdas ...

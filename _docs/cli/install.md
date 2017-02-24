@@ -3,7 +3,7 @@ layout: default
 title: install <service>
 parent: cli
 order: 3
-permalink: /docs/cli/install/
+permalink: /cli/install/
 ---
 
 # Requiring other services

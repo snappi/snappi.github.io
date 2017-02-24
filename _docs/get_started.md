@@ -1,11 +1,8 @@
 ---
-title: Getting Started
+title: Get Started
 layout: default
-permalink: /docs/what_is_snappi/
+permalink: /get_started/
 order: 0
-redirect_from:
-  - /docs/
-  - /docs/getting_started
 ---
 
 ## Getting Started

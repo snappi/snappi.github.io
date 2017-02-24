@@ -3,7 +3,7 @@ layout: default
 title: init
 parent: cli
 order: 2
-permalink: /docs/cli/init/
+permalink: /cli/init/
 ---
 
 # Creating a `snappi.json` file

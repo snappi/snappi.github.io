@@ -3,7 +3,7 @@ layout: default
 title: search
 parent: cli
 order: 0
-permalink: /docs/cli/search/
+permalink: /cli/search/
 ---
 
 # Searching for services

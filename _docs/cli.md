@@ -1,4 +1,4 @@
 ---
-title: Command Line Interface (CLI)
-order: 3
+title: CLI Reference
+order: 4
 ---

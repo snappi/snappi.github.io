@@ -3,7 +3,7 @@ layout: default
 title: publish
 parent: cli
 order: 1
-permalink: /docs/cli/publish/
+permalink: /cli/publish/
 ---
 
 # Publishing services

@@ -1,9 +1,11 @@
 ---
+title: What is a service?
 layout: default
-title: Service Configuration
-order: 1
-permalink: /docs/service_configuration/
+permalink: /services/what_is_a_service/
+order: 0
+parent: services
 ---
+
 
 Creating and configuring individual services is a simple, but crucial part of leveraging Snappi. In ensuring that 
 services adhere to the same interface and configuration guidelines, Snappi is able to automate deployment, scaling, 
