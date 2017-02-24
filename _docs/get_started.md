@@ -2,7 +2,7 @@
 title: Get Started
 layout: default
 permalink: /get_started/
-order: 0
+order: 1
 ---
 
 ## Getting Started

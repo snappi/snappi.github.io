@@ -1,6 +1,6 @@
 ---
 title: Get Snappi
 layout: default
-order: 1
+order: 0
 permalink: /get_snappi/
 ---
