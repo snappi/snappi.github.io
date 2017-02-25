@@ -20,7 +20,7 @@ description: > # this means to ignore newlines until "baseurl:"
   problems they bring, further empower horizontal scaling, and empower
   service reuse like never before!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://snappi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: snappiteam
 github_username:  snappi
 
@@ -37,9 +37,7 @@ kramdown:
     span:
       line_numbers: false
     block:
-      line_numbers: true
-      line_format: '%'
-      start_line: 1
+      line_numbers: false
 gems:
   - jekyll-feed
   - jekyll-redirect-from
