@@ -6,15 +6,19 @@ order: 0
 parent: apps
 ---
 
-In addition to building and publishing individual services and their dependencies, Snappi can also build and ship 
-entire environments containing several services. 
+# What is a Snappi App?
+Snappi apps are the containment structure that dictates which services you plan on using, and where you plan on 
+deploying them to. As such, apps consist of two parts:
 
-In order to identify and configure your app, you'll need to create a `snappi_app.json` file. Through this configuration 
+1. A collection of snappi enabled services, and
+2. Environment definitions - collections of hosts that the specified services can be deployed to
+
+In order to identify and configure your app, you'll need to create a `snappi-app.json` file. Through this configuration 
 file, the Snappi CLI is able to understand which services you aim to deploy, and the details of the environments you 
 have available for it to be deployed to. 
 
-## Requirements
-At a minimum, a `snappi_app.json` file must have the following:
+# Requirements
+At a minimum, a `snappi-app.json` file must have the following:
 
 #### `name`
 * All lowercase
@@ -23,8 +27,9 @@ At a minimum, a `snappi_app.json` file must have the following:
 #### `version`
 * Build number of current iteration
 * Numerical values, periods allowed (e.g. **x.x.x**)
+* Follows [semver spec](https://docs.npmjs.com/getting-started/semantic-versioning)
 
-#### `dependencies`
+#### `services`
 * Services to be deployed as part of the app
 
 #### `environments`
@@ -50,11 +55,29 @@ At a minimum, a `snappi_app.json` file must have the following:
     "type": "Github",
     "url": "https://github.com/snappi/avengers-service.git"
   },
-  "dependencies": {
-    "thor.asgaard": "^1.4.2",
-    "ironman.stark-enterprises": "3.0.1",
-    "captain-america.winter-soldier": "2.1.5",
-    "hulk.smash": "^0.1.98"
+  "services": {
+    "asgaard": "^1.4.2",
+    "stark-enterprises": "3.0.1",
+    "winter-soldier": "2.1.5",
+    "hulk": "^0.1.98"
+  },
+  "environments": {
+    "local": [
+      {
+        "host": "127.0.0.1",
+        "options": {}
+      }
+    ],
+    "production": [
+      {
+        "host": "12.34.56.78",
+        "options": {}
+      },
+      {
+        "host": "23.45.67.89",
+        "options": {}
+      }
+    ]
   }
 }
 ```

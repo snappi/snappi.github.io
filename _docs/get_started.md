@@ -2,29 +2,27 @@
 title: Get Started
 layout: default
 permalink: /get_started/
-order: 1
+order: 0
 ---
 
-## Getting Started
+# Getting started with Snappi
 
-### What is Snappi?
-Snappi is an open-source tool used to easily and quickly create and deploy scalable microservices using Docker containers. You'll be started in a snap!
-![snap](https://media.giphy.com/media/3o6Zt0WMV671fQJVi8/giphy.gif)
+## Prerequisits
+* [Node.js v6 or later](https://nodejs.org/en/download/)
+* [Docker v1.12.0 or later](https://docs.docker.com/engine/installation/)
 
-##### Prerequisites
-Install Node Version Manager and Node.js version 0.12.x.
+## Install Snappi
+Snappi is supported on macOS, Windows, and Linux. 
 
-```sh
-$ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
-$ nvm install 0.12
+```
+$ wget somefile.sh | sh
 ```
 
-##### Install Docker
-Install Docker using instructions from [here](https://docs.docker.com/)
+### Alpha Release
+During our open alpha release, we're asking that testers provide their email address so we can collect feedback and 
+share updates. Once you've downloaded and installed the Snappi CLI, you'll be prompted to specify your email address 
+before you run any other commands. To get a head start, you can specify your email address as follows:
 
-##### Install the Snappi NPM Module
-```sh
-$ npm install -g snappi-cli
 ```
-
-That's it! You're now ready to create your first Snappi application!
+$ snappi config user.email "your_email@domain.com"
+```
