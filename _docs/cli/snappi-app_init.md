@@ -13,39 +13,50 @@ all services into any configured environment automatically. To do so, you'll nee
 services to be deployed, and indicate which hosts you'd like the services deployed to.
 
 ```
-$ snappi app init
+$ snappi-app init
 ```
 
 ### Sample output
-```
-$ snappi app init
-This utility will walk you through creating a snappi_app.json file.
-It only covers the most common items, and tries to guess reasonable defaults.
-
-Use `snappi app require <service>` afterwards to install a service and
-save it as a requirement in the snappi_app.json file. 
-
-Press ^C at any time to quit.
-name: (test-app) 
-version: (1.0.0) 
-description: My first Snappi app
-keywords: snappi, test, service
-author: Snappi
-About to write to /path/to/test-service/snappi_app.json:
-
+```sh
+$ snappi-app init
+  ____    _   _      _      ____    ____    ___ 
+ / ___|  | \ | |    / \    |  _ \  |  _ \  |_ _|
+ \___ \  |  \| |   / _ \   | |_) | | |_) |  | | 
+  ___) | | |\  |  / ___ \  |  __/  |  __/   | | 
+ |____/  |_| \_| /_/   \_\ |_|     |_|     |___|
+                                                
+Initializing Service
+This utility will walk you through creating a snappi-app.json file.It only covers the most common items, and tries to 
+guess reasonable defaults.Use `snappi-app install <service>` afterwards to install a service andsave it as a requirement 
+in the snappi-app.json file.Press ^C at any time to quit.
+name: the-batmobile
+version: 1.0.0
+description: Service providing access to the vast power of the batmobile!
+language: javascript
+git repository: https://github.com/snappi/the-batmobile.git
+keywords (comma-delimited list): Na, na, na, na, na, na, na, na, BATMAN
+author: Team Snappi <team@snappi.io>
+license: MIT
 {
-  "name": "test-app",
-  "version": "1.0.0",
-  "description": "My first Snappi app",
-  "keywords": [
-    "snappi",
-    "test",
-    "service"
-  ],
-  "author": "Snappi",
-  "license": "ISC"
+    "name": "the-batmobile",
+    "description": "Service providing access to the vast power of the batmobile!",
+    "version": "1.0.0",
+    "keywords": [
+        "Na",
+        "na",
+        "na",
+        "na",
+        "na",
+        "na",
+        "na",
+        "na",
+        "BATMAN"
+    ],
+    "author": [
+        "Team Snappi <team@snappi.io>"
+    ],
+    "language": "javascript",
+    "license": "MIT",
+    "repository": "https://github.com/snappi/the-batmobile.git"
 }
-
-
-Is this ok? (yes)
 ```

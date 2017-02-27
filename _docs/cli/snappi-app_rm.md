@@ -1,6 +1,6 @@
 ---
 layout: default
-title: snappi-app env rm
+title: snappi-app rm
 permalink: /cli/snappi-app/env_rm
 parent: cli
 order: 8
@@ -11,7 +11,6 @@ To remove a host from an environment, simply indicate the hostname you wish to r
 be removed from:
 
 ```sh
-$ snappi app environment <env> rm <hostname>
-OR
-$ snappi app env <env> rm <hostname>
+$ snappi-app rm <hostname> --environment="<env_name>"
+$ snappi-app rm <hostname> -e "<env_name>"
 ```

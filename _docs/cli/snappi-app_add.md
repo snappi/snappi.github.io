@@ -1,6 +1,6 @@
 ---
 layout: default
-title: snappi-app env add
+title: snappi-app add
 permalink: /cli/snappi-app/env_add
 parent: cli
 order: 7
@@ -14,9 +14,8 @@ your entire application across a distributed infrastructure.
 Adding hosts is a simple command that accepts a hostname and the environment to bind it to:
 
 ```sh
-$ snappi app environment <env_name> add <hostname>
-OR
-$ snappi app env <env_name> add <hostname>
+$ snappi-app add <hostname> --environment="<env_name>"
+$ snappi-app add <hostname> -e "<env_name>"
 ```
 
 ### Additional parameters

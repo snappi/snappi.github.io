@@ -13,5 +13,5 @@ need to make calls to each other. Snappi supports this naturally as part of it's
 a simple configuration indicating which services are required before they can be referenced via dynamic RPC.
 
 ```
-$ snappi install <service name>
+$ snappi-service install <service_name>
 ```

@@ -17,7 +17,7 @@ In order to identify and configure your app, you'll need to create a `snappi-app
 file, the Snappi CLI is able to understand which services you aim to deploy, and the details of the environments you 
 have available for it to be deployed to. 
 
-# Requirements
+## Requirements
 At a minimum, a `snappi-app.json` file must have the following:
 
 #### `name`

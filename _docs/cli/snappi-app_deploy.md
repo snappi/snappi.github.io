@@ -11,7 +11,7 @@ Once an environment has been created and configured to include a set of Snappi s
 CLI can handle the entire application deployment! To deploy an application, type the following in the command line:
 
 ```sh
-$ snappi app deploy <env>
+$ snappi-app deploy <env_name>
 ```
 
 ## What does deployment do?
