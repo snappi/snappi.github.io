@@ -21,4 +21,4 @@ $ snappi-service init
 ```
 
 Once the wizard is complete, the CLI will place the generated `snappi-service.json` file into the directory in which 
-the command was kicked off.
+the command was kicked off. After that, you're ready to [specify which services your new one is dependent upon](/services/dependencies).

@@ -50,3 +50,7 @@ exports.init = function(userManagement) {
 **Alpha release notes**: *Throughout our alpha release, we'll be constantly adding support for a variety of different 
 languages. [Click here]() to see what languages we support, and [don't hesitate to reach out](mailto:team@snappi.io) 
 if you have any requests!*
+
+## Next steps
+After you've successfully installed and injected the services you need, you're ready to publish your service! Check out 
+our guide on [publishing services](/services/publishing) to learn how yours can be shared with your team or the community.

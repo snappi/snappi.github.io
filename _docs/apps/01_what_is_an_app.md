@@ -81,3 +81,7 @@ At a minimum, a `snappi-app.json` file must have the following:
   }
 }
 ```
+
+## Creating your app
+Interested in creating and deploying your own collection of services? Check out our [guide on app creation](/apps/creating) 
+next!
