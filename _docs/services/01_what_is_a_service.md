@@ -70,3 +70,6 @@ At a minimum, a `snappi-service.json` file must have the following:
   }
 }
 ```
+
+## Creating your first service
+Now that you understand what a Snappi service is, you're ready to get started and [create your own](/services/creating/)! 
