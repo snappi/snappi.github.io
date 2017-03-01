@@ -11,6 +11,5 @@ To remove a host from an environment, simply indicate the hostname you wish to r
 be removed from:
 
 ```sh
-$ snappi-app rm <hostname> --environment="<env_name>"
-$ snappi-app rm <hostname> -e "<env_name>"
+$ snappi-app env <env_name> rm <hostname>
 ```
