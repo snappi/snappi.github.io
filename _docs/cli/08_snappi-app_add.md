@@ -14,8 +14,7 @@ your entire application across a distributed infrastructure.
 Adding hosts is a simple command that accepts a hostname and the environment to bind it to:
 
 ```sh
-$ snappi-app add <hostname> --environment="<env_name>"
-$ snappi-app add <hostname> -e "<env_name>"
+$ snappi-app env <env_name> add <hostname>
 ```
 
 ### Additional parameters
