@@ -15,8 +15,8 @@ simply type:
 $ snappi-service init
 ```
 
-This will initate a command line questionnaire that will conclude with the creation of a `snappi.json` file in the 
-directory you initiated the command.
+This will initiate a command line questionnaire that will conclude with the creation of a `snappi.json` file in the 
+directory in which you initiated the command.
 
 ### Sample output
 ```

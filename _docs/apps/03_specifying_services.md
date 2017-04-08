@@ -20,5 +20,5 @@ a `snappi-service.json` file. Once the **\<service_name\>** is validated, the re
 service configuration file in the current directory. 
 
 ## Next steps
-After you've specified which services need to be deployed with your app, it's time to specify the details of the 
-environments your app can be published to. [Click here to learn more](/apps/provisioning_environments/).
+After you’ve specified which services need to be deployed with your app, it’s time to specify the details of the 
+environments to which your app can be published. [Click here to learn more](/apps/provisioning_environments/).

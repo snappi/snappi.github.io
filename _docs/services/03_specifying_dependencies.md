@@ -8,8 +8,8 @@ parent: services
 
 # Specifying service dependencies
 Needing to specify dependencies for microservices can seem like a strange concept at first, but the ability for services 
-to be aware of what peers they depend on is a powerful feature. Armed with this awareness, the Snappi CLI is able to 
-deploy and orchestrate a service as well as all it's dependencies using a single command. 
+to be aware of what peers they depend on is a powerful feature. Armed with this awareness, the Snappi CLI is able to deploy 
+and orchestrate a service, as well as all of its dependencies, using a single command.
 
 To identify and leverage additional services as dependencies of your own, start with the following CLI command:
 
@@ -23,8 +23,8 @@ service configuration file in the current directory.
 
 ## Injecting service references
 After updating your `snappi-service.json` file to reflect the desired dependencies, these dependencies can be injected 
-directly into your own microservice. The means of injecting service references is unique in each language, and the 
-Snappi CLI is constantly being updated to ensure we support every server-side language. 
+directly into your own microservice. The means of injecting service references is unique in each language; as such, the 
+Snappi CLI is constantly being updated to ensure the support of every server-side language.
 
 The below is a brief example of how you'd inject a *userManagement* microservice into a node.js service:
 
@@ -48,7 +48,7 @@ exports.init = function(userManagement) {
 ```
 
 **Alpha release notes**: *Throughout our alpha release, we'll be constantly adding support for a variety of different 
-languages. [Click here]() to see what languages we support, and [don't hesitate to reach out](mailto:team@snappi.io) 
+languages. [Click here](/faq) to see what languages we support, and [don't hesitate to reach out](mailto:team@snappi.io) 
 if you have any requests!*
 
 ## Next steps

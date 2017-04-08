@@ -7,10 +7,10 @@ parent: services
 ---
 
 # Searching for services <small>(coming soon)</small>
-As mentioned in the [publishing guide](/services/publishing), Snappi plans on hosting a public registry that can be 
-used to share services with friends, colleagues, and developers around the world. Though this registry is currently 
-under development, we've made a prototype available containing services published by our team to showcase the 
-future functionality. 
+As mentioned in the [publishing guide](/services/publishing), Snappi plans to host a public registry that can 
+be used to share services with friends, colleagues, and developers around the world. Though this registry is 
+currently under development, we’ve made a prototype available to showcase the future functionality, which currently 
+contains services published by the Snappi team.
 
 Searching for services contained in the registry is easy, and can be achieved with the following command:
 

@@ -22,11 +22,11 @@ At a minimum, a `snappi-app.json` file must have the following:
 
 #### `name`
 * All lowercase
-* One word, no spaces, dashes and underscores allowed
+* One word: no spaces, dashes, or underscores
 
 #### `version`
 * Build number of current iteration
-* Numerical values, periods allowed (e.g. **x.x.x**)
+* Numerical values: periods allowed (e.g. **x.x.x**)
 * Follows [semver spec](https://docs.npmjs.com/getting-started/semantic-versioning)
 
 #### `services`
