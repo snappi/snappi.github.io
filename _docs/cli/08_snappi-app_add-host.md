@@ -1,7 +1,7 @@
 ---
 layout: default
-title: snappi-app add
-permalink: /cli/snappi-app/env_add
+title: snappi-app add-host
+permalink: /cli/snappi-app/add-host
 parent: cli
 order: 7
 ---
@@ -14,8 +14,18 @@ your entire application across a distributed infrastructure.
 Adding hosts is a simple command that accepts a hostname and the environment to bind it to:
 
 ```sh
-$ snappi-app env <env_name> add <hostname>
+$ snappi-app add-host <hostname> -e <environment_name>
 ```
+
+### Required parameters
+
+*`<hostname>`*
+
+IP address or hostname at which the machine can be reached
+
+*`--environment=<environment>`, `-e <environment>`*
+
+Label to give then environment to add the host to
 
 ### Additional parameters
 
@@ -23,6 +33,16 @@ $ snappi-app env <env_name> add <hostname>
 
 Name of the user to login to the host with
 
+*`--password=<password>`, `-p <password>`*
+
 *`--key=<key>`, `-k <key>`*
 
 Path to the SSH key used to access the host
+
+*`--datacenter=<datacenter>`, `-d <datacenter>`*
+
+Label for the datacenter the host exists in
+
+*`--name=<name>`, `-n <name>`*
+
+Friendly name to give the host for tracking
