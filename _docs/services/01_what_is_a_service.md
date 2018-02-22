@@ -6,7 +6,7 @@ order: 0
 parent: services
 ---
 
-# What is a Snappi Service? (TEST)
+# What is a Snappi Service?
 Services are the lifeblood of Snappi, and represent the individual modules and components that developers create and 
 use as part of their applications. It's our goal to make microservice development as easy as creating 
 libraries and SDKs - thus simplifying and empowering service-oriented development.
